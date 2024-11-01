@@ -4,12 +4,19 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "4.17.1",
-    "express-handlebars": "3.1.0"
+    "express-handlebars": "3.1.0",
+    "mercadopago": "^2.0.15",
+    "morgan": "^1.10.0",
+    "mp-ecommerce-nodejs": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
